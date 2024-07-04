@@ -1,0 +1,9 @@
+torch.save({
+    'con1_state_dict': con1.state_dict(),
+    'con2_state_dict': con2.state_dict(),
+    'con3_state_dict': con3.state_dict(),
+    'fc1_state_dict': fc1.state_dict(),
+    'fc2_state_dict': fc2.state_dict(),
+    'fc3_state_dict': fc3.state_dict(),
+    'optimizer_state_dict': optimizer.state_dict()
+}, 'run.pth')
