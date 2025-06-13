@@ -1,36 +1,18 @@
+# 🦴 Fracture Detection Using CNNs
 
----
+A deep learning project focused on binary fracture classification in X-ray medical images using advanced computer vision techniques.
 
-## 2. 🧠 FactGuard — Real-Time YouTube Fact Checker
+## 🚀 Highlights
 
-```markdown
-# 🧠 FactGuard
+- CNN architecture with layered convolution and pooling
+- Preprocessing with Canny Edge Detection
+- Hyperparameter tuning across models
+- K-Fold Cross Validation for model robustness
+- Analyzed ReLU, PReLU, and Leaky ReLU activation impacts
 
-A scalable AI platform that combats misinformation on YouTube by validating video content using Retrieval-Augmented Generation (RAG) and real-time fact-checking.
+## 🧠 Tech Stack
 
-## ⚡ Features
-
-- Scrapes and analyzes YouTube transcripts
-- Real-time fact validation via trusted knowledge sources
-- Uses LLaMA via Groq inference + GPT for cross-checking
-- Responsive UI with Next.js
-- Supports scalable multimedia pipelines
-
-## 🛠️ Tech Stack
-
-- Next.js frontend
-- LLaMA and GPT models
-- Groq for high-speed inference
-- Backend: Python, FastAPI
-- RAG + verified source referencing
-
-## 🧪 Architecture
-
-- Extract transcripts → Generate chunks
-- Embed + store in vector DB
-- Query LLMs with RAG context
-- Return validation scores and responses
-
-## 📜 License
-
-MIT
+- Python, TensorFlow / PyTorch
+- OpenCV for edge detection
+- NumPy, Matplotlib for data analysis
+- Scikit-learn for evaluation
